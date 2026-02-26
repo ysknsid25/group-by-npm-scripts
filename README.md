@@ -2,7 +2,7 @@
 
 A VS Code extension that automatically discovers npm scripts from multiple `package.json` files in a monorepo and displays them in a tree view, grouped by colon-separated prefixes.
 
-https://github.com/user-attachments/assets/29bd520a-35d0-4c16-9305-4fb51051c433
+<video src="https://github.com/user-attachments/assets/29bd520a-35d0-4c16-9305-4fb51051c433" controls muted autoplay loop></video>
 
 ## Features
 
