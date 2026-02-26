@@ -1,0 +1,79 @@
+{
+    "name": "group-by-npm-scripts",
+    "displayName": "Group by NPM Scripts",
+    "description": "Group and run npm scripts from multiple package.json files in a monorepo",
+    "version": "0.0.1",
+    "publisher": "yoshidakengo",
+    "engines": {
+        "vscode": "^1.97.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [],
+    "main": "./dist/extension.js",
+    "contributes": {
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "npmScriptsContainer",
+                    "title": "NPM Scripts",
+                    "icon": "resources/icon.svg"
+                }
+            ]
+        },
+        "views": {
+            "npmScriptsContainer": [
+                {
+                    "id": "npmScripts",
+                    "name": "NPM Scripts"
+                }
+            ]
+        },
+        "commands": [
+            {
+                "command": "npmScripts.run",
+                "title": "Run Script",
+                "icon": "$(play)"
+            },
+            {
+                "command": "npmScripts.refresh",
+                "title": "Refresh",
+                "icon": "$(refresh)"
+            }
+        ],
+        "menus": {
+            "view/title": [
+                {
+                    "command": "npmScripts.refresh",
+                    "when": "view == npmScripts",
+                    "group": "navigation"
+                }
+            ],
+            "view/item/context": [
+                {
+                    "command": "npmScripts.run",
+                    "when": "view == npmScripts && viewItem == script",
+                    "group": "inline"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "compile": "node esbuild.js",
+        "watch": "node esbuild.js --watch",
+        "package": "vsce package",
+        "test": "vitest run",
+        "lint": "eslint"
+    },
+    "devDependencies": {
+        "@stylistic/eslint-plugin": "^5.9.0",
+        "@types/node": "^22.13.0",
+        "@types/vscode": "^1.97.0",
+        "esbuild": "^0.25.0",
+        "eslint": "^10.0.2",
+        "typescript": "^5.7.0",
+        "typescript-eslint": "^8.56.1",
+        "vitest": "^4.0.18"
+    }
+}
