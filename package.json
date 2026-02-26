@@ -64,7 +64,8 @@
         "watch": "node esbuild.js --watch",
         "package": "vsce package",
         "test": "vitest run",
-        "lint": "eslint"
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
     },
     "devDependencies": {
         "@stylistic/eslint-plugin": "^5.9.0",
