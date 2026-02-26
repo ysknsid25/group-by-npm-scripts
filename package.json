@@ -4,6 +4,11 @@
     "description": "Group and run npm scripts from multiple package.json files in a monorepo",
     "version": "0.0.1",
     "publisher": "yoshidakengo",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ysknsid25/group-by-npm-scripts.git"
+    },
+    "license": "MIT",
     "engines": {
         "vscode": "^1.97.0"
     },
