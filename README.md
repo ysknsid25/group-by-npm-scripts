@@ -1,3 +1,5 @@
+[Market Place](https://marketplace.visualstudio.com/items?itemName=Kanon.group-by-npm-scripts)
+
 # Group by NPM Scripts
 
 A VS Code extension that automatically discovers npm scripts from multiple `package.json` files in a monorepo and displays them in a tree view, grouped by colon-separated prefixes.
