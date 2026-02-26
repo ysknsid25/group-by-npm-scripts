@@ -6,7 +6,7 @@ A VS Code extension that automatically discovers npm scripts from multiple `pack
 
 ## Features
 
-- **Auto-discovery** — Detects all `package.json` files in your workspace and lists their scripts
+- **Monorepo-friendly** — Discovers all `package.json` files in your workspace and displays scripts with their relative paths, so you never have to open each `package.json` to check available scripts
 - **Grouping** — Hierarchically groups scripts by colon (`:`) delimiter (e.g. `dev:frontend`, `dev:backend`)
 - **One-click run** — Run any script directly from the tree view in a terminal. Defined command is shown in tooltip.
 - **Auto-refresh** — Watches for `package.json` changes and updates the tree automatically
