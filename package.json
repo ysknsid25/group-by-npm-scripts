@@ -3,7 +3,7 @@
     "displayName": "Group by NPM Scripts",
     "description": "Group and run npm scripts from multiple package.json files in a monorepo",
     "version": "0.0.1",
-    "publisher": "yoshidakengo",
+    "publisher": "Kanon",
     "repository": {
         "type": "git",
         "url": "https://github.com/ysknsid25/group-by-npm-scripts.git"
