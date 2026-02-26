@@ -11,6 +11,9 @@ A VS Code extension that automatically discovers npm scripts from multiple `pack
 - **One-click run** — Run any script directly from the tree view in a terminal. Defined command is shown in tooltip.
 - **Auto-refresh** — Watches for `package.json` changes and updates the tree automatically
 
+<img width="2000" height="1099" alt="image" src="https://github.com/user-attachments/assets/c5247d8e-8f33-4e05-a50c-d2e53e335f06" />
+
+
 ### Example
 
 Given the following scripts:
