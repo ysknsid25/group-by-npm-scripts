@@ -9,6 +9,7 @@
         "url": "https://github.com/ysknsid25/group-by-npm-scripts.git"
     },
     "license": "MIT",
+    "icon": "resources/icon.png",
     "engines": {
         "vscode": "^1.97.0"
     },
