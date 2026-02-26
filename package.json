@@ -2,7 +2,7 @@
     "name": "group-by-npm-scripts",
     "displayName": "Group by NPM Scripts",
     "description": "Group and run npm scripts from multiple package.json files in a monorepo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "Kanon",
     "repository": {
         "type": "git",
@@ -10,7 +10,13 @@
     },
     "license": "MIT",
     "icon": "resources/icon.png",
-    "keywords": ["npm", "scripts", "monorepo", "npm scripts", "tree view"],
+    "keywords": [
+        "npm",
+        "scripts",
+        "monorepo",
+        "npm scripts",
+        "tree view"
+    ],
     "engines": {
         "vscode": "^1.97.0"
     },
